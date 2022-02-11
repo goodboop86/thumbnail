@@ -1,0 +1,172 @@
+
+paramSet:
+    base_layer: 
+        shape: [1280, 720]
+        
+    #clear_layer: 
+    #    img: !!python/object/new:PIL.Image.new
+    #        kwds: {mode: "RGBA",  size: [1280, 720], color: !!python/tuple [255, 255, 255, 0]}
+    
+    char:
+        size: [600, 600]
+        place:
+            horizontal: right
+            vertical: bottom
+            bottom_pad: 0
+            right_pad: 0
+        
+    logo: 
+        size: [254, 139]
+        place:
+            horizontal: right
+            vertical: top
+            bottom_pad: -10
+            right_pad: 10
+
+
+    item1:
+        size: [120, 120]
+        place:
+            horizontal: left
+            vertical: bottom
+            bottom_pad: 140
+            right_pad: -50
+            
+    item2:
+        size: [120, 120]
+        place:
+            horizontal: left
+            vertical: bottom
+            bottom_pad: 100
+            right_pad: -160
+
+    item3:
+        size: [120, 120]
+        place:
+            horizontal: left
+            vertical: bottom
+            bottom_pad: 60
+            right_pad: -270
+
+            
+            
+    box1: 
+        xy: [50, 450,400, 670]
+        fill: !!python/tuple [255,255,255,128]
+        outline: !!python/tuple [255, 255, 255]
+        width: 1
+
+    box2: 
+        xy: [420, 450,770, 670]
+        fill: !!python/tuple [255,255,255,128]
+        outline: !!python/tuple [255, 255, 255]
+        width: 1
+    
+    title1:
+        xy: [40,40]
+        text: みらいよち 
+        fill: !!python/tuple [255,243,63]
+        font: !!python/object/new:PIL.ImageFont.truetype
+            kwds: {font: material/font/ヒラギノ角ゴシック W7.ttc, size: 160}
+        anchor:  
+        spacing: 10 
+        align: left 
+        direction: 
+        features: 
+        language: 
+        stroke_width: 14
+        stroke_fill: !!python/tuple [21, 21, 21]
+        embedded_color: False
+        width: 1
+        
+    title2:
+        xy: [40,250]
+        text: つよすぎる 
+        fill: !!python/tuple [230, 0, 51]
+        font: !!python/object/new:PIL.ImageFont.truetype
+            kwds: {font: material/font/ヒラギノ角ゴシック W7.ttc, size: 160}
+        anchor:  
+        spacing: 20 
+        align: left 
+        direction: 
+        features: 
+        language: 
+        stroke_width: 14
+        stroke_fill: !!python/tuple [21, 21, 21]
+        embedded_color: False
+        width: 1
+        
+    title3:
+        xy: [40,40]
+        text: みらいよち 
+        fill: !!python/tuple [255,255,255]
+        font: !!python/object/new:PIL.ImageFont.truetype
+            kwds: {font: material/font/ヒラギノ角ゴシック W7.ttc, size: 160}
+        anchor:  
+        spacing: 10 
+        align: left 
+        direction: 
+        features: 
+        language: 
+        stroke_width: 18
+        stroke_fill: !!python/tuple [255, 255, 255]
+        embedded_color: False
+        width: 1
+        
+    title4:
+        xy: [40,250]
+        text: つよすぎる 
+        fill: !!python/tuple [255, 255, 255]
+        font: !!python/object/new:PIL.ImageFont.truetype
+            kwds: {font: material/font/ヒラギノ角ゴシック W7.ttc, size: 160}
+        anchor:  
+        spacing: 20 
+        align: left 
+        direction: 
+        features: 
+        language: 
+        stroke_width: 18
+        stroke_fill: !!python/tuple [255, 255, 255]
+        embedded_color: False
+        width: 1
+        
+    skill1:
+        xy: [430,500]
+        text: ・サイコショック 
+        fill: !!python/tuple [255, 255, 255]
+        font: !!python/object/new:PIL.ImageFont.truetype
+            kwds: {font: material/font/ヒラギノ角ゴシック W7.ttc, size: 40}
+        anchor:  
+        spacing: 10 
+        align: left 
+        direction: 
+        features: 
+        language: 
+        stroke_width: 4
+        stroke_fill: !!python/tuple [0,0,0]
+        embedded_color: False
+        width: 1
+        
+    skill2:
+        xy: [430,580]
+        text: ・ムーンフォース 
+        fill: !!python/tuple [255, 255, 255]
+        font: !!python/object/new:PIL.ImageFont.truetype
+            kwds: {font: material/font/ヒラギノ角ゴシック W7.ttc, size: 40}
+        anchor:  
+        spacing: 20 
+        align: left 
+        direction: 
+        features: 
+        language: 
+        stroke_width: 4
+        stroke_fill: !!python/tuple [0, 0, 0]
+        embedded_color: False
+        width: 1
+
+dir:
+    bgs: ./material/bgs/*
+    chars: ./material/chars/*
+    items: ./material/items/*
+    logo: ./material/logo/logo-unite.png
+    fonts: ./material/font/*
